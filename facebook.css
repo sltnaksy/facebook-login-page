@@ -1,0 +1,222 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color:#dfe3ee;
+}
+/* layout*/
+@media only screen and (min-width: 768px){
+h1,h2{
+    font-family:'Times New Roman', Times, serif;
+}
+h1{
+    font-size: 55px;
+    color: rgb(66, 103, 178);
+
+   
+}
+h2{
+    font-size: 28px;
+    font-weight:normal;
+    line-height: 32px;
+    width: 500px;
+
+}
+
+
+/*loginbox-generel*/
+
+p{
+    position: absolute;
+    background-color: white;
+    font-size: 16px;
+    color: #1877f2;
+    left: 120px;
+    top: 220px;
+    
+}
+
+p a{
+    color: #1877f2;
+    background-color:white;
+}
+hr{
+    position: absolute;
+    left: 15px;
+    right: 0px;
+    top: 250px;
+}
+/*loginbox-component*/
+
+.login-page{
+    display: flex;
+    position: relative;  
+}
+.textbox{
+   margin-top: 150px;
+   margin-left: 160px;
+}
+
+.loginbox{
+    position:absolute;
+    right: 180px;
+    top: 30px;
+    width: 400px;
+    height: 380px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 2px rgb(194, 193, 193);
+}
+.form{
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    height: 330px;
+    right:35px;
+    top: 15px;
+   
+   
+}
+.form input{
+    padding: 20px;
+    width: 332px;
+    border-radius: 6px;
+}
+#anmelden{
+    width: 380px;
+    height:60px ;
+    top: 20px;
+    left: 20px;
+    background-color: #1877f2;
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+}
+
+#new{
+position: absolute;
+width: 250px;
+height:60px ;
+top: 280px;
+left: 60px;
+background-color: #1b9c24;
+border-radius: 6px;
+font-size: 18px;
+color: white;
+}
+
+#p{
+    position: absolute;
+    top: 390px;
+    left: 23px;
+    width: 360px;
+    height: 20px;
+    background-color:#dfe3ee;
+    color: black;
+}
+#p::first-line{
+    font-weight: bold;
+}
+#p1{
+    position: absolute;
+    top: 390px;
+    left: 148px;
+    width: 360px;
+    height: 10px;
+    background-color:#dfe3ee;
+    color: black;
+}
+
+/*footer-general*/
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 0px;
+    padding-left: 10px;
+    background-color: white;
+    white-space: nowrap;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+ul {
+    background-color: white;
+}
+ 
+a{
+    background-color: white;
+    color:#737373 ;
+}
+/*footer-component*/
+.information-box{
+    border: 1px solid white;
+    background-color: white;
+     margin-top:200px;
+     height: 154px;
+     width: 1347px; 
+     background-color: white; 
+}
+
+
+.footer-box{
+    font-weight: normal;
+    margin-left: 153.5px;
+    margin-top: 7px;
+    background-color: white;
+    
+
+}
+.d,.f,.en,.it,.pt,.sq,.es,.tr,.ar,.hi,.cn{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #737373;
+    background-color: white;
+    
+}
+.plus{
+    font-weight: bolder;
+    font-size: 18px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: white;
+
+
+}
+.info{
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #737373;
+    background-color: white;
+    text-decoration: none;
+    margin-left: 153.5px;
+}
+
+
+
+
+#alt{
+    position: absolute;
+    margin-top: 315px;
+    margin-right: 40px;
+    margin-left: 153.5px;
+}
+
+.last{
+    background-color: white;
+    color:#737373 ;
+    margin-left: 153.5px;
+    font-size: 11px;
+    font-weight: normal;
+    text-decoration: none;
+    position: absolute;
+    top: 640px;
+
+
+}
+
+}
+
+
